@@ -35,8 +35,8 @@ The Angular frontend interacts with the Quarkus backend to fetch sequence data.
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-repository/lab-sequence.git
-   cd lab-sequence
+   git clone https://github.com/FDStruck/ExerciseLabSeq.git
+   cd ExerciseLabSeq
    ```
 
 2. **Build and Run the Application Using Docker Compose**
@@ -52,3 +52,8 @@ The Angular frontend interacts with the Quarkus backend to fetch sequence data.
 3. **Access the Application**
 
    Open your browser and navigate to `http://localhost` to access the frontend application.
+
+4. **Access the Quarkus**
+   
+   The backend API can be accessed at http://localhost:8080.
+
