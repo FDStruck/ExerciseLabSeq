@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  quarkus:
+    build:
+      context: .
+      dockerfile: Dockerfile.quarkus
+    ports:
+      - "8080:8080"
+    networks:
+      - app-network
+
+  angular:
+    build:
+      context: .
+      dockerfile: Dockerfile.angular
+    ports:
+      - "80:80"
+    networks:
+      - app-network
+    depends_on:
+      - quarkus
+
+networks:
+  app-network:
+    driver: bridge

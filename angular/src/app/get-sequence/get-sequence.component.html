@@ -1,0 +1,20 @@
+<div class="container">
+    <h1>Fetch Labseq Sequence</h1>
+
+    <div class="form-group">
+        <label for="sequenceNumber">Enter Sequence Number:</label>
+        <input id="sequenceNumber" [(ngModel)]="sequenceNumber" type="number" placeholder="Enter a number" />
+    </div>
+
+    <div class="form-group">
+        <label for="isCicle">Use Cicle Endpoint:</label>
+        <input id="isCicle" type="checkbox" [(ngModel)]="isCicle" />
+    </div>
+
+    <button class="fetch-button" (click)="fetchSequence()">Fetch Sequence</button>
+
+    <div *ngIf="result" class="result">
+        <p>Result:</p>
+        <pre>{{ result }}</pre>
+    </div>
+</div>
