@@ -55,5 +55,5 @@ The Angular frontend interacts with the Quarkus backend to fetch sequence data.
 
 4. **Access the Quarkus**
    
-   The backend API can be accessed at http://localhost:8080.
+   The backend API can be accessed at `http://localhost:8080/labseq/{n}` OR `http://localhost:8080/labseq/cicle/{n}`.
 
