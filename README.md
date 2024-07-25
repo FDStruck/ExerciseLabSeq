@@ -51,11 +51,14 @@ The Angular frontend interacts with the Quarkus backend to fetch sequence data.
 
 3. **Access the Application**
 
-   Open your browser and navigate to `http://localhost` to access the frontend application.
+   To access the frontend application open your browser and navigate to 
+   ```bash
+   http://localhost
+   ``` 
 
 4. **Access the Quarkus**
    
-   Open your browser and navigate to 
+   To access the API services open your browser and navigate to 
    ```bash
    http://localhost:8080/labseq/{n}
    ``` 
@@ -63,5 +66,5 @@ The Angular frontend interacts with the Quarkus backend to fetch sequence data.
    ```bash
    http://localhost:8080/labseq/cicle/{n}
    ``` 
-   to access the API services.
+   
 
